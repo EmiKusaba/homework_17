@@ -88,7 +88,7 @@ h2{
 }
 #designportfolio-container{
     background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
-    height: 800px;
+    height: 1000px;
     display: flex;
     justify-content:flex-start;
     padding:20px;
@@ -104,7 +104,26 @@ h2{
 .project-image2{
     display:flex;
     justify-content:space-between;
+    padding:20px 20px;
 
+}
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#footer-icon{
+    display:flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#message-footer:visited{
+    color:red;
+}
+
+#message-footer {
+    color: black;
 }
 
 
