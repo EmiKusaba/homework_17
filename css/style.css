@@ -173,9 +173,10 @@ p{
 @media (max-width: 480px) {
     p { font-size : 15px; 
     }
-}
-@media (max-width:480px){
     .card{
         width:480px;
+    }
+    .record-desc1 {
+        width: 450px;
     }
 }
