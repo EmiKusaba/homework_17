@@ -95,7 +95,7 @@ h2{
     color: #402E2C;
     align-content:center;
     flex-direction:column;
-    justify-content:center;
+    align-content: space-evenly;
 
     
 }
@@ -168,3 +168,4 @@ p{
 @media screen and (max-width: 480px) {
     p { font-size : 15px; 
     }
+}
