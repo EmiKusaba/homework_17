@@ -108,10 +108,14 @@ h2{
     max-width:80%;
 }  
 .record-desc1{
+   
     background:white;
+    height:auto;
     width:800px;
     margin: auto;
     padding: 10px;
+    
+    
 }
 
 .project1{
@@ -137,13 +141,18 @@ h2{
 .footer{
     display:flex;
     flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
+
 }
 #footer-icons{
     float: right;
+    padding:10px;
 }
 
 #message-footer {
     color:#402E2C;
+    padding:10px;
 }
 
 a {
@@ -153,3 +162,9 @@ a {
 #design-portfolio{
         width: 100%;
 }
+p{
+    font-size : 20px;
+}
+@media screen and (max-width: 480px) {
+    p { font-size : 15px; 
+    }
