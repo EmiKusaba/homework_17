@@ -46,6 +46,7 @@ h2{
 #hero-container {
     background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
     height: 480px;
+    width: 100%;
     display: flex;
     justify-content:center;
     align-items:center;
