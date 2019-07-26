@@ -45,6 +45,10 @@ h2{
 
 #hero-container {
     background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
+ 
     height: 480px;
     width: 100%;
     display: flex;
