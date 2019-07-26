@@ -1,64 +1,40 @@
-h1{
+h1 {
     color: #402E2C;
     font-size: 30px;
     font-family: 'Merriweather', serif;
-    padding:10px;
+    padding: 10px;
 }
-    @media only screen and (max-width: 480px) {
-          #message{font-size: 20px; padding:10px;
-       
-    }
-}
-    @media only screen and (max-width: 480px) {
-          #myself {font-size: 20px; 
- 
-    }
-}
-@media only screen and (max-width: 480px) {
-    #design-portfolio{font-size: 20px; 
 
-}
-}
-    
-
-h2{
+h2 {
     color: #C2A18E;
     font-size: 30px;
     font-family: 'Merriweather', serif;
 }
-h4{
+
+h4 {
     color: #402E2C;
     font-size: 17px;
     font-family: 'Merriweather', serif;
-    padding:10px;
+    padding: 10px;
 }
-@media only screen and (max-width: 480px) {
-    #tytleui{font-size: 16px; 
-    }
-}
-h5{
-    font-size : 20px;
-    color:#402E2C;
-    padding:5px 10px;
-}
-@media only screen and (max-width: 480px) {
-    #recordui{font-size: 13px; 
 
+h5 {
+    font-size: 20px;
+    color: #402E2C;
+    padding: 5px 10px;
 }
+
+ul {
+    padding: 0;
+    list-style-type: none;
 }
-@media only screen and (max-width: 480px) {
-    #message-footer{font-size: 13px; color:white; background-color:#402E2C;
-    }
-}
+
 .record-desc1 {
+    width: 100%;
+    height: auto;
+}
 
-        width: 100%;
-        height: auto;
-        
-    }
-
-
-#menu-container{
+#menu-container {
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -71,13 +47,13 @@ h5{
 }
 
 #menu-right {
-    background-color:white;
+    background-color: white;
     color: #402E2C;
     font-size: 20px;
     font-family: sans-serif;
     padding: 20px;
     float: right;
-}   
+}
 
 #logo {
     width: 70px;
@@ -90,8 +66,8 @@ h5{
     height: 480px;
     width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 
 #profile-image img {
@@ -100,7 +76,7 @@ h5{
 }
 
 #about {
-    display:block;
+    display: block;
     max-width: 560px;
     position: relative;
     background-image: url("../images/desktop:home/papyrus.png");
@@ -109,117 +85,130 @@ h5{
     font-family: sans-serif;
     text-align: left;
     padding: 20px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
+
 @media (min-width: 600px) {
     #about {
-      display: grid;
-      grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
     }
-
-   
-    
-#about-icons {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
-.icon {
-    padding: 5px;
-    display: inline;
-}
-
-.icon img {
-    max-height: 30px;
-    max-width: 30px;
-    object-fit: cover;
-}
-#top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(194, 161, 142);
-}
-
-#designportfolio-container{
-    background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
-    height: 1900px;
-    width: 100%;
-    display: flex;
-    color: #402E2C;
-    align-content:center;
-    flex-direction:column;
-    align-content: space-evenly;
-
-    
-}
-
-.project-image{
-    width:100%;
-}
-   
-.image-fluid {
-    max-width:80%;
-}  
-.record-desc {
-    background:white;
-    height:auto;
-    width:800px;
-    margin: auto;
-    padding: 10px;
-    
-    
-}
-
-
-
-.project1{
-    display:flex;
-    justify-content:center;
-}
-
-.project2{
-    display:flex;
-    justify-content:center;
-    padding-top:50px;
-    
-    
-}
-.project3{
-    display:flex;
-    justify-content:center;
-    padding-top:50px;
-    
-}
-
-
-.footer{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:flex-end;
-    background-color:#402E2C;
-
-}
-#footer-icons{
-    display:flex;
-    flex-direction:row;
-    float: right;
-    padding:10px;
-}
-
-#message-footer {
-    color:#402E2C;
-    padding:10px;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-}
-#design-portfolio{
+    #about-icons {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+    }
+    .icon {
+        padding: 5px;
+        display: inline;
+    }
+    .icon img {
+        max-height: 30px;
+        max-width: 30px;
+        object-fit: cover;
+    }
+    #top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(194, 161, 142);
+    }
+    #designportfolio-container {
+        background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
+        height: 1900px;
         width: 100%;
+        display: flex;
+        color: #402E2C;
+        align-content: center;
+        flex-direction: column;
+        align-content: space-evenly;
+    }
+    .project-image {
+        width: 100%;
+    }
+    .image-fluid {
+        max-width: 80%;
+    }
+    .record-desc {
+        background: white;
+        height: auto;
+        width: 800px;
+        margin: auto;
+        padding: 10px;
+    }
+    .project1 {
+        display: flex;
+        justify-content: center;
+    }
+    .project2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .project3 {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    #footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: #402E2C;
+    }
+    #footer-icons {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        padding: 10px;
+    }
+    #message-footer {
+        color: white;
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #design-portfolio {
+        width: 100%;
+    }
 }
+
+@media only screen and (max-width: 480px) {
+    #message {
+        font-size: 20px;
+        padding: 10px;
+    }
+    #myself {
+        font-size: 20px;
+    }
+    #design-portfolio {
+        font-size: 20px;
+    }
+    #titleui {
+        font-size: 16px;
+    }
+    #recordui {
+        font-size: 13px;
+    }
+    #about-icons {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #footer {
+        background-color: #402E2C;
+        display: flex;
+        justify-content: space-between;
+    }
+    #message-footer {
+        font-size: 13px;
+        color: white;
+    }
+    #footer-icons {
+        display: flex;
+    }
 }
