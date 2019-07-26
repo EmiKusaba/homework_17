@@ -103,6 +103,7 @@ h2{
 #designportfolio-container{
     background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
     height: 1500px;
+    width: 100%;
     display: flex;
     color: #402E2C;
     align-content:center;
