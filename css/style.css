@@ -212,3 +212,10 @@ ul {
         display: flex;
     }
 }
+    .icon img {
+        max-height: 27px;
+        max-width: 27px;
+        object-fit: cover;
+        padding:3px;
+
+}
