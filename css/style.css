@@ -69,6 +69,11 @@ ul {
     justify-content: center;
     align-items: center;
 }
+.card{
+    margin:10px;
+    border: solid 1px; 
+    display: inline-block;
+}
 
 #profile-image img {
     width: 400px;
@@ -121,9 +126,10 @@ ul {
         width: 100%;
         display: flex;
         color: #402E2C;
-        align-content: center;
         flex-direction: column;
         align-content: space-evenly;
+        align-items: center;
+        text-align: center;
     }
     .project-image {
         width: 100%;
@@ -131,12 +137,18 @@ ul {
     .image-fluid {
         max-width: 80%;
     }
+    .card{
+        width: 800px;
+        border: solid 1px; 
+        display: inline-block;
+        margin: 20px;
+    }
     .record-desc {
         background: white;
         height: auto;
-        width: 800px;
         margin: auto;
         padding: 10px;
+        display: inline-block;
     }
     .project1 {
         display: flex;
@@ -145,12 +157,10 @@ ul {
     .project2 {
         display: flex;
         justify-content: center;
-        padding-top: 50px;
     }
     .project3 {
         display: flex;
         justify-content: center;
-        padding-top: 50px;
     }
     #footer {
         display: flex;
@@ -218,4 +228,15 @@ ul {
         object-fit: cover;
         padding:3px;
 
+}
+    #designportfolio-container {
+    background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    color: #402E2C;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
