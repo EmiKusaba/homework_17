@@ -190,7 +190,7 @@ ul {
 
 @media only screen and (max-width: 480px) {
     html{
-        width:400px;
+        width:410px;
     }
     #message {
         font-size: 20px;
