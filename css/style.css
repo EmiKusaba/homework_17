@@ -122,7 +122,7 @@ ul {
     }
     #designportfolio-container {
         background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
-        height: 1900px;
+        height: 2000px;
         width: 100%;
         display: flex;
         color: #402E2C;
@@ -189,6 +189,9 @@ ul {
 }
 
 @media only screen and (max-width: 480px) {
+    html{
+        width:400px;
+    }
     #message {
         font-size: 20px;
         padding: 10px;
@@ -221,14 +224,14 @@ ul {
     #footer-icons {
         display: flex;
     }
-}
+
     .icon img {
         max-height: 27px;
         max-width: 27px;
         object-fit: cover;
         padding:3px;
 
-}
+    }
     #designportfolio-container {
     background-image: url("../images/desktop:home/398565-PCOFOE-270.jpg");
     height: 1100px;
@@ -239,4 +242,5 @@ ul {
     align-content: space-evenly;
     align-items: center;
     text-align: center;
+}
 }
